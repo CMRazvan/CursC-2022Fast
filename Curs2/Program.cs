@@ -10,6 +10,8 @@ namespace Curs2
             var y = 2;
 
             int p = x + y;
+
+            Console.WriteLine(p);
         }
     }
 }
