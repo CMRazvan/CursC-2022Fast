@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemaLab1ex2", "TemaLab1ex2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemaLab1ex3", "TemaLab1ex3\TemaLab1ex3.csproj", "{87CE063F-7257-49FC-A729-71DD5CC3DC03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemaLab1ex4", "TemaLab1ex4\TemaLab1ex4.csproj", "{59CD44C7-FCC7-415F-93FB-360A264232E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{87CE063F-7257-49FC-A729-71DD5CC3DC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87CE063F-7257-49FC-A729-71DD5CC3DC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87CE063F-7257-49FC-A729-71DD5CC3DC03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CD44C7-FCC7-415F-93FB-360A264232E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CD44C7-FCC7-415F-93FB-360A264232E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CD44C7-FCC7-415F-93FB-360A264232E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CD44C7-FCC7-415F-93FB-360A264232E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
