@@ -28,7 +28,7 @@ namespace TemaLab1ex6
             int y;
             y = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Tasteaza al doilea numar:");
+            Console.WriteLine("Tasteaza al Treilea numar:");
 
             int z;
             z = int.Parse(Console.ReadLine());
