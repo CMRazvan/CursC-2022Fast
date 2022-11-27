@@ -33,6 +33,8 @@ namespace TemaLab1ex6
             int z;
             z = int.Parse(Console.ReadLine());
 
+            //Varianta 1
+
             if (x > y & x > z & y > z)
             {   // x=3 y=2 z=1 => 3 2 1 
                 Console.WriteLine("Ordinea numerelor este: " + x + ", " + y + ", " + z);
@@ -65,6 +67,42 @@ namespace TemaLab1ex6
                 Console.WriteLine("Ordinea numerelor este: " + z + ", " + x + ", " + y);
 
             }
+
+            /* varianta 2 de calcul
+            if (x > y)
+            {
+                if (y > z)
+                {// x y z 
+                    Console.WriteLine("Ordinea numerelor este: " + x + ", " + y + ", " + z);
+                }
+                else
+                {// x z y
+                    Console.WriteLine("Ordinea numerelor este: " + x + ", " + z + ", " + y);
+                }
+            }
+            else if(y > z) 
+            {
+                if (x > z)
+                {// y x z
+                    Console.WriteLine("Ordinea numerelor este: " + y + ", " + x + ", " + z);
+                }
+                else
+                {// y z x
+                    Console.WriteLine("Ordinea numerelor este: " + y + ", " + z + ", " + x);
+                }
+            }
+            else
+            {
+                if (x > y)
+                {// z x y
+                    Console.WriteLine("Ordinea numerelor este: " + z + ", " + y + ", " + x);
+                }
+                else
+                {// z y x
+                    Console.WriteLine("Ordinea numerelor este: " + z + ", " + x + ", " + y);
+                }
+            }
+            */
         }
     }
 }
