@@ -33,30 +33,38 @@ namespace TemaLab1ex6
             int z;
             z = int.Parse(Console.ReadLine());
 
-            if (x > y)
-            {
-                if (y > z)
-                {
-                    Console.WriteLine("Ordinea numerelor este: " + z + ", " + y + ", " + x);
-                } 
-                else
-                {
-                    Console.WriteLine("Ordinea numerelor este: " + z + ", " + x + ", " + y);
-                }
-                
+            if (x > y & x > z & y > z)
+            {   // x=3 y=2 z=1 => 3 2 1 
+                Console.WriteLine("Ordinea numerelor este: " + x + ", " + y + ", " + z);
+
             }
-            else 
-            {
-                if(x > z)
-                {
-                    Console.WriteLine("Ordinea numerelor este: " + z + ", " + x + ", " + y);
-                }
-                else
-                {
-                    Console.WriteLine("Ordinea numerelor este: " + z + ", " + y + ", " + x);
-                }
+            if (x > y & x > z & z > y)
+            {   // x=3 y=1 z=2 => 3 2 1 
+                Console.WriteLine("Ordinea numerelor este: " + x + ", " + z + ", " + y);
+
             }
 
+            if (y > x & y > z & x > z)
+            {   // x=2 y=3 z=1 => 3 2 1 
+                Console.WriteLine("Ordinea numerelor este: " + y + ", " + x + ", " + z);
+
+            }
+            if (y > x & y > z & z > x)
+            {   // x=1 y=3 z=1 => 3 2 1 
+                Console.WriteLine("Ordinea numerelor este: " + y + ", " + z + ", " + x);
+
+            }
+
+            if (z > y & z > x & y > x)
+            {   // x=1 y=2 z=3 => 3 2 1 
+                Console.WriteLine("Ordinea numerelor este: " + z + ", " + y + ", " + x);
+
+            }
+            if (z > y & z > x & x > y)
+            {   // x=2 y=1 z=3 => 3 2 1 
+                Console.WriteLine("Ordinea numerelor este: " + z + ", " + x + ", " + y);
+
+            }
         }
     }
 }
