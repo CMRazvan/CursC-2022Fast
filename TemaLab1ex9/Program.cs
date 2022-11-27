@@ -31,7 +31,6 @@ namespace TemaLab1ex9
             b = schimb;
             
             Console.Write("Numerele inlocuite sunt a=" + a + " b=" + b);
-            Console.ReadKey();
 
         }
     }

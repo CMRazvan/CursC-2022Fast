@@ -21,10 +21,14 @@ namespace TemaLab1ex5
                 int x;
                 x = int.Parse(Console.ReadLine());
 
+            //Pentru a simplifica codul se poate si asa  int x = int.Parse(Console.ReadLine()); - !!!!!
+
             Console.WriteLine("Tasteaza al doilea numar:");
 
                 int y;
                 y = int.Parse(Console.ReadLine());
+
+            //Pentru a simplifica codul se poate si asa  int y = int.Parse(Console.ReadLine()); - !!!!!
 
             if (x > y)
             {

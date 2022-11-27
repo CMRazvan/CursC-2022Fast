@@ -19,7 +19,7 @@ namespace TemaLab1ex3
 
             numarul = int.Parse(Console.ReadLine());
 
-            int lastdigit = (numarul % 10);
+            int lastdigit = numarul % 10;
 
             Console.WriteLine(lastdigit);
 
