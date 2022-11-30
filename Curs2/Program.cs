@@ -6,12 +6,7 @@ namespace Curs2
     {
         static void Main(string[] args)
         {
-            var x = 3;
-            var y = 2;
 
-            int p = x + y;
-
-            Console.WriteLine(p);
         }
     }
 }

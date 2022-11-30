@@ -33,6 +33,7 @@ namespace Curs1
             latime = int.Parse(Console.ReadLine());
 
 
+
         }
     }
 }
